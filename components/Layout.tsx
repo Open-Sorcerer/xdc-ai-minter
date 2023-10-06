@@ -33,7 +33,7 @@ const Layout: NextPage<LayoutProps> = ({ children }) => {
               </div>
             }
           >
-            <Spline scene="https://prod.spline.design/mb4C3Ms7Ph9dxtgP/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/AkJEAVhXGLlVP4zx/scene.splinecode" />
           </Suspense>
         </div>
         {address && children}
