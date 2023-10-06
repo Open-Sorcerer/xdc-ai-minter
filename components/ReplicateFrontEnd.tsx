@@ -88,7 +88,7 @@ export default function ReplicateFrontEnd() {
       await writeAsync?.().then((res) => {
         console.log(res);
         alert(
-          "You can check the transaction here: https://testnet.ftmscan.com/tx/" +
+          "You can check the transaction here: https://explorer.xinfin.network/txs/" +
             res.hash
         );
       });
@@ -223,59 +223,6 @@ export default function ReplicateFrontEnd() {
                   className="w-full flex items-center justify-evenly"
                 >
                   MINT NFT
-                </div>
-                <div
-                  className="absolute top-0 right-0 h-full flex justify-center items-center"
-                  onClick={toggleDropdown}
-                >
-                  <div className="border-l border-brandGray-600 px-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 cursor-pointer"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </div>
-                  <div
-                    className={`${
-                      isDropdownOpen ? "block" : "hidden"
-                    } absolute top-full right-0 w-32 shadow-lg rounded-md bg-white/30 text-black font-semibold placeholder-neutral-600 placeholder:font-medium`}
-                  >
-                    <ul className="w-full">
-                      <li
-                        className="w-full px-5 hover:bg-brandPurple-dark rounded-t-md py-0.5"
-                        onClick={() => {
-                          setMintNetwork("Polygon Mumbai");
-                        }}
-                      >
-                        Polygon
-                      </li>
-                      <li
-                        className="w-full border-y border-brandGray-200/40 px-5 hover:bg-brandPurple-dark py-0.5"
-                        onClick={() => {
-                          setMintNetwork("Avalanche Fuji");
-                        }}
-                      >
-                        Avalanche
-                      </li>
-                      <li
-                        className="w-full px-5 hover:bg-brandPurple-dark rounded-b-md py-0.5"
-                        onClick={() => {
-                          setMintNetwork("Fantom Testnet");
-                        }}
-                      >
-                        Fantom
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </button>
             </div>
