@@ -1,5 +1,5 @@
 # XDC Minter
-With the rise of NFTs, creators and collectors face the challenge of fragmentation. XDC Minter uses AI to generate images and other metadata for NFTs. Our dApp accepts both positive and negative prompts from users and generates images and metadata accordingly. A negative prompt refers to the things you don't want in the image and metadata. Using the XDC Blockchain, known for its scalability and high TPS of 2000+, users can experience performance similar to web2 while enjoying the benefits of web3. Our dApp is currently deployed on the XDC Mainnet, and due to the very low gas fees, we are considering deploying it on the testnet.
+With the rise of NFTs, creators and collectors face the challenge of fragmentation. XDC Minter uses AI to generate images and other metadata for NFTs. Our dApp accepts both positive and negative prompts from users and generates images and metadata accordingly. A negative prompt refers to the things you don't want in the image and metadata. Using the XDC Blockchain, known for its scalability and high TPS of 2000+, users can experience performance similar to web2 while enjoying the benefits of web3. Our dApp is currently deployed on the XDC Mainnet, and due to the very low gas fees, we feel like we have deployed this on testnet.
 
 ### Mainnet Contract address: 0xA4CCEb9e84b9682ca559AA41DB57f4BECe586dc5
 
