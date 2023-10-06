@@ -1,1 +1,1 @@
-# Fantom Minter
+# XDC Minter
